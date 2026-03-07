@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Appointment</title>
+</head>
+<body>
+  <h2>Add Appointment</h2>
+  <form action="add_appointment.php" method="POST">
+    Patient ID: <input type="number" name="PATIENT_ID" required><br><br>
+    Doctor ID: <input type="number" name="DOCTOR_ID" required><br><br>
+    Visit Date: <input type="date" name="VISIT_DATE" required><br><br>
+    Visit Time: <input type="time" name="VISIT_TIME" required><br><br>
+    Reason for Visit: <input type="text" name="REASON_FOR_VISIT" required><br><br>
+    <input type="submit" value="Add Appointment">
+  </form>
+  <br>
+  <a href="view_appointment.php">View Appointments</a>
+</body>
+</html>

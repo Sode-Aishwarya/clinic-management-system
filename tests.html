@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Test Record</title>
+</head>
+<body>
+    <h2>Add Test Record</h2>
+    <form action="tests.php" method="POST">
+        <label>Test Type: <input type="text" name="TEST_TYPE" required></label><br>
+        <label>Test Report: <textarea name="TEST_REPORT"></textarea></label><br>
+        <label>Bill: <input type="number" step="0.01" name="BILL"></label><br>
+        <label>Doctor ID (D_ID): <input type="number" name="D_ID" required></label><br>
+        <label>Patient ID (P_ID): <input type="number" name="P_ID" required></label><br>
+        <input type="submit" value="Add Test">
+    </form>
+</body>
+</html>

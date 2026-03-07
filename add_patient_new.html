@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Patient</title>
+</head>
+<body>
+  <h2>Add New Patient</h2>
+  <form action="add_patient_new.php" method="POST">
+    ID: <input type="number" name="PATIENT_ID" pattern="^[^,]+$" title="Only one name allowed, no commas" required><br><br>
+    DATE: <input type="date" name="DATE" required><br><br>
+    NAME: <input type="text" name="PATIENT_NAME" required><br><br>
+    PHONE NUMBER: <input type="number" name="PATIENT_PHNO" required><br><br>
+    AGE: <input type="number" name="AGE" required><br><br>
+    GENDER: <input type="text" name="GENDER" required><br><br>
+    ADDRESS: <input type="text" name="ADDRESS" required><br><br>
+	Doctor ID:<input type="number" name="Doc_Id" required><br><br>
+
+    <input type="submit" value="Add Patient">
+  </form>
+  <br>
+  <a href="view_patients.php">View All Patients</a>
+</body>
+</html>

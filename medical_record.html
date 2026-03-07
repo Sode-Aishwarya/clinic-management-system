@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Medical Record</title>
+</head>
+<body>
+    <h2>Add Medical Record</h2>
+    <form action="medical_record.php" method="POST">
+        <label>Patient ID: <input type="number" name="PATIENT_ID" required></label><br>
+        <label>Medicine: <input type="text" name="MEDICINE"></label><br>
+        <label>Doctor ID: <input type="number" name="DOC_ID" required></label><br>
+        <label>Visit Date: <input type="date" name="VISIT_DATE"></label><br>
+        <label>Diagnosis: <textarea name="DIAGNOSIS"></textarea></label><br>
+        <label>Fee: <input type="number" step="0.01" name="FEE"></label><br>
+        <label>Treatment: <textarea name="TREATMENT"></textarea></label><br>
+        <input type="submit" value="Add Record">
+    </form>
+</body>
+</html>
