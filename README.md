@@ -84,3 +84,82 @@ Backend: PHP
 Database: MySQL
 
 Version Control: Git & GitHub
+
+### 📁 Project Structure
+
+```
+clinic-management-system
+│
+├── add_appointment.php
+├── add_doctor.php
+├── add_patient_new.php
+├── clinic.php
+├── delete_appointment.php
+├── delete_clinic.php
+├── delete_doctor.php
+├── delete_patient.php
+├── medical_record.php
+├── staff.php
+├── tests.php
+│
+├── view_appointment.php
+├── view_clinic.php
+├── view_doctor.php
+├── view_patients.php
+├── view_staff.php
+├── view_tests.php
+│
+└── update files for each module
+```
+### ⚙️ Installation
+
+#### Clone the repository
+```
+
+git clone https://github.com/Sode-Aishwarya/clinic-management-system.git
+```
+Move project to your server directory
+
+For example (XAMPP):
+```
+C:\xampp\htdocs\clinic-management-system
+```
+Start Apache and MySQL using XAMPP.
+
+Create a database in phpMyAdmin
+
+Example:
+
+clinic_management
+
+Import the SQL file (if available).
+
+Open the project in browser:
+```
+http://localhost/clinic-management-system
+```
+### 🎯 Purpose of the Project
+
+This project was developed as a college project to demonstrate how software systems can help clinics manage healthcare operations digitally.
+It simplifies appointment scheduling, patient record management, and staff organization.
+
+### 🚀 Future Improvements
+
+Login and authentication system
+
+Role-based access (Admin, Doctor, Staff)
+
+Better UI using CSS/Bootstrap
+
+Online appointment booking
+
+Report generation
+
+Data security enhancements
+
+### 👩‍💻 Author
+
+Aishwarya Sode
+
+GitHub:
+https://github.com/Sode-Aishwarya
