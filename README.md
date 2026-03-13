@@ -159,7 +159,4 @@ Data security enhancements
 
 ### 👩‍💻 Author
 
-Aishwarya Sode
-
-GitHub:
-https://github.com/Sode-Aishwarya
+Sode Aishwarya(BMSIT)
